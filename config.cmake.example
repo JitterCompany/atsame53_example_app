@@ -1,0 +1,17 @@
+# === Local build config === #
+# This config file contains build-wide settings.
+# These settings potentially apply to all code and dependencies.
+#
+# Copy the config.cmake.example file to config.cmake and change the settings
+# below. See cmake/common_settings.cmake for the defaults.
+#
+# See also config.h, which contains more settings.
+
+
+# Set optimize level
+set(OPTIMIZE        0)
+
+# Select Blackmagic Probe
+set(BLACKMAGIC_DEV /dev/cu.usbmodemE0E29ED21) #2055
+
+set(POWER_TARGET "no")

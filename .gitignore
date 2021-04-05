@@ -1,0 +1,13 @@
+generated
+*.swp
+build/
+tags
+config.cmake
+*.d
+*.o
+basic/*.bin
+basic/*.elf
+/.vscode/.cortex-debug.*.state.json
+.vscode/launch.json
+
+.vscode/ipch/
